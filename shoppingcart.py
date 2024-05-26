@@ -89,8 +89,8 @@ class ShoppingCart:
 
                 tree = ttk.Treeview(frm, columns=("Item", "Price", "Quantity"), show="headings")
                 tree.heading("Item", text="Item")
-                tree.heading("Price", text="Price (Francs)")
-                tree.heading("Quantity", text="Quantity")
+                tree.heading("Price", text="Price (Frs)")
+                tree.heading("Qty", text="Qty")
                 tree.pack()
 
 
@@ -104,7 +104,7 @@ class ShoppingCart:
             except Exception as e:
                 messagebox.showerror("Error", f"Failed to save cart: {str(e)}")
         else:
-            messagebox.showerror("Error", "The cart is empty.")
+            messagebox.showerror("Error", "The cart is empty please place an order.")
 if __name__ == "__main__":
     root = tk.Tk()
     shopping_cart = ShoppingCart(root)
