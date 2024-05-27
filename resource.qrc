@@ -1,0 +1,36 @@
+<RCC>
+  <qresource prefix="/pics">
+    <file>resource.qrc</file>
+    <file>arrow (1).png</file>
+    <file>240_F_374488197_tbuZ4YCGXFzpNqggOqNmTJmq3dHAhe2Q.jpg</file>
+    <file>star (1).png</file>
+    <file>star (2).png</file>
+    <file>rating.png</file>
+    <file>star.png</file>
+    <file>files/coverpage/Atomic Habits.jpg</file>
+    <file>files/coverpage/'Batman 251 by Neal Adams' Poster by DC Comics _ Displate - Copy.jpg</file>
+    <file>files/category/Beauty and the Beast (Classic Reprint).jpg</file>
+    <file>files/coverpage/41UwqWhI4L._SX329_BO1204203200_.jpg</file>
+    <file>files/coverpage/513e7BP39PL._SX330_BO1204203200_.jpg</file>
+    <file>files/coverpage/2165.jpg</file>
+    <file>files/coverpage/5117CIwLSFL._SX331_BO1204203200_.jpg</file>
+    <file>files/coverpage/9781472260086.jpg</file>
+    <file>files/category/c201806081528454974.png</file>
+    <file>files/category/c201806081528455013.jpg</file>
+    <file>files/category/c201806081528455047.png</file>
+    <file>files/category/c201806081528455091.jpg</file>
+    <file>files/category/c201806081528455205.jpg</file>
+    <file>files/category/c201806081528455224.jpg</file>
+    <file>files/category/history.jpg</file>
+    <file>files/category/romance.png</file>
+    <file>files/coverpage/b201806081528456239.jpg</file>
+    <file>files/coverpage/b201806111528741778.jpg</file>
+    <file>files/coverpage/b201806111528741556.jpg</file>
+    <file>files/coverpage/b201806081528456308.jpg</file>
+    <file>files/001-shopping-cart.png</file>
+    <file>files/002-user.png</file>
+    <file>files/003-search.png</file>
+    <file>files/004-loupe.png</file>
+    <file>files/005-book.png</file>
+  </qresource>
+</RCC>
