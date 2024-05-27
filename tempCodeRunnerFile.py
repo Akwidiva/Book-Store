@@ -1,0 +1,1 @@
+  self.signup_dialog = signup() 
