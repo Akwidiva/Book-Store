@@ -4,6 +4,7 @@ from bookdetails import Ui_bookdetails1
 from profile_ui import Ui_profile
 from ui_Signin_up import SigninUp
 from ui_Signin import Signin
+from ui_mainwindow import Ui_MainWindow
 class HomePage(QDialog, Ui_Homepage):
     def __init__(self):
         super().__init__()
@@ -65,9 +66,16 @@ class Profile(QDialog, Ui_profile):
 
     def open_signin_up(self):
         self.signin_up_dialog.show()   
+class MainWindow(QMainWindow):
+    def __init__(self):
+        super().__init__()
+        self.ui = Ui_MainWindow()
+        self.ui.setupUi(self)
+
 if __name__ == "__main__":
     import sys
     app = QApplication(sys.argv)
     homepage = HomePage()
     homepage.show()
     sys.exit(app.exec())
+
